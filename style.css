@@ -146,3 +146,49 @@ content: url("./img/icons-arrows.png");
     left: 150px;
     top: 750px;
 }
+
+
+/* ===============  TASK 3  ============== */
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon {
+    display: inline-block;
+}
+
+.icon__main {
+    background: url("./img/icons-social.png");
+    background-repeat: no-repeat;
+}
+
+.icon__main--fb {
+    width: 25px;
+    height: 30px;
+    background-position: -48px 0px;
+    padding: 13px;
+}
+
+.icon__main--google {
+    width: 25px;
+    height: 30px;
+    background-position: 5px 0px;
+    padding: 13px;
+}
+
+.icon__main--in {
+    width: 25px;
+    height: 30px;
+    background-position: -98px 0px;
+    padding: 13px;
+}
+
+.icon__main--twitter {
+    width: 25px;
+    height: 30px;
+    background-position: -148px 0px;
+    padding: 13px;
+}
+
+
