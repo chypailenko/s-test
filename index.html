@@ -4,9 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-          crossorigin="anonymous">
     <title>test</title>
 </head>
 <body>
@@ -16,9 +13,11 @@
         <div class="header__container">
             <div class="header__dropdown">
                 <button class="header__dropbtn">
-                    <i class="fas fa-book-open icon"></i>
-                    Categories
-                    <i class="fas fa-angle-down icon"></i>
+                    <span class="icon icon-book"></span>
+                    <span class="header__dropdown-text">
+                        Categories
+                    </span>
+                    <span class="icon icon-arrows"></span>
                 </button>
                 <div class="header__dropdown-content">
                     <a href="#">Link 1</a>
@@ -27,8 +26,8 @@
                 </div>
             </div>
             <div class="header__search">
-                <i class="fas fa-search icon"></i>
-                <input type="text" name="Search" placeholder="Search...">
+                <span class="icon icon-search"></span>
+                <input type="text" name="Search" placeholder="Search..." class="header__input">
             </div>
         </div>
     </div>

@@ -21,7 +21,7 @@ input:focus {
 }
 
 .header {
-    max-width: 700px;
+    max-width: 800px;
     width: 100%;
     margin: 0 auto;
     height: 50px;
@@ -40,6 +40,7 @@ input:focus {
     position: relative;
     display: inline-block;
 }
+
 
 .header__dropdown-content {
     display: none;
@@ -74,22 +75,33 @@ input:focus {
 }
 
 .header__search {
-    background: #F1F1F1;
-    max-width: 465px;
+    max-width: 547px;
     width: 100%;
-    border: 1px solid #d2d1d1;
-    border-radius: 30px;
     padding: 10px 0 8px 10px;
-}
-.header__search:hover {
-    box-shadow: 0 1px 0 #908c8c;
+    border-radius: 20px;
+    border: 1px solid #e1eae7;
+    background-color: #f4f8f7;
 }
 
+
 .icon {
-    color: #908c8c;
     padding: 0 10px;
 }
 
+
+.header__dropbtn .icon-book:before {
+content: url("./img/icons-book.png");
+}
+
+.header__dropbtn .icon-arrows:after {
+content: url("./img/icons-arrows.png");
+}
+
+.header__search .icon-search:before {
+    content: url("./img/icons-search.png");
+}
+
+/* ===============  TASK 2  ============== */
 .task2 {
     margin-top: 100px;
 }
@@ -104,28 +116,33 @@ input:focus {
 
 .box1 {
     background: purple;
-    position: relative;
-    left: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .box2 {
     background: yellow;
     color: purple;
+    position: relative;
 }
 
 .box3 {
+    width: 100px;
+    height: 100px;
     background: red;
     position: relative;
-    z-index: 60px;
-    left: 353px;
-    top: -44px;
+    left: 205px;
+    top: -205px;
     z-index: 1;
 }
 
 .box4 {
+    width: 100px;
+    height: 100px;
     background: cyan;
     color: yellow;
     position: absolute;
-    left: 180px;
-    top: 785px;
+    left: 150px;
+    top: 750px;
 }
